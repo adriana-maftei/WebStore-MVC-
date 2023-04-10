@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebStoreMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebStoreMVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\assetto-corsa.jpg",
+      "PackagePath": "staticwebassets\\images\\assetto-corsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\atomic-heart.jpg",
+      "PackagePath": "staticwebassets\\images\\atomic-heart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\blood-bowl-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blood-bowl-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\call-of-duty.jpg",
+      "PackagePath": "staticwebassets\\images\\call-of-duty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\crime-boss-rockay-city.jpg",
+      "PackagePath": "staticwebassets\\images\\crime-boss-rockay-city.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\fifa-23.jpg",
+      "PackagePath": "staticwebassets\\images\\fifa-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\forza-horizon.jpg",
+      "PackagePath": "staticwebassets\\images\\forza-horizon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\frozen-flame.jpg",
+      "PackagePath": "staticwebassets\\images\\frozen-flame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\hogwarts-legacy.jpg",
+      "PackagePath": "staticwebassets\\images\\hogwarts-legacy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\pathfinder.jpg",
+      "PackagePath": "staticwebassets\\images\\pathfinder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\the-dark-pictures-switchback.jpg",
+      "PackagePath": "staticwebassets\\images\\the-dark-pictures-switchback.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\triangle-strategy.jpg",
+      "PackagePath": "staticwebassets\\images\\triangle-strategy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mafte\\source\\repos\\WebStoreMVC\\WebStoreMVC\\wwwroot\\images\\wo-long-fallen-dynasty.jpg",
+      "PackagePath": "staticwebassets\\images\\wo-long-fallen-dynasty.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebStoreMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebStoreMVC.props",
+      "PackagePath": "build\\WebStoreMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebStoreMVC.props",
+      "PackagePath": "buildMultiTargeting\\WebStoreMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebStoreMVC.props",
+      "PackagePath": "buildTransitive\\WebStoreMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

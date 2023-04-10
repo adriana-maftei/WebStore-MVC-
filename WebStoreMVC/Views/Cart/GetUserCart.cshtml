@@ -1,0 +1,47 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "GetUserCart";
+}
+
+<div style="width:100%; margin:auto" class="mt-2">
+    @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
+    {
+        <h5>My Cart</h5>
+
+        <table class="table table-striped">
+            <tr>
+                <th>Game</th>
+                <th>Genre</th>
+                <th>Unit Price</th>
+                <th>Total Price</th>
+                <th>Action</th>
+            </tr>
+
+            @foreach (var item in Model.CartDetails)
+            {
+                <tr>
+                    <td>@item.Game.Title</td>
+                    <td>@item.Game.Genre.GenreName</td>
+                    <td>@item.Game.UnitPrice X @item.Quantity</td>
+                    <td>@(item.Game.UnitPrice * item.Quantity) $</td>
+                    <td>
+                        <a class="btn btn-warning" href="/Cart/AddItem?GameId=@item.GameID&&redirect=1">+</a>
+                        <a class="btn btn-danger" href="/Cart/RemoveItem?GameId=@item.GameID">-</a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <div class="my-2">
+            TOTAL: @(Model.CartDetails.Select(item => item.Game.UnitPrice * item.Quantity).Sum()) $
+        </div>
+
+        <div class="my-2">
+            <a class="btn btn-primary" href="/Cart/Checkout">Checkout</a>
+        </div>
+    }
+    else
+    {
+        <h3>No items in the cart</h3>
+    }
+</div>

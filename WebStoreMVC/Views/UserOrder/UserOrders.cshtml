@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Order>
+
+<div style="width:100%" class="mt-2">
+    @if (Model != null && Model.Count() > 0)
+    {
+        <h5>My Orders</h5>
+        <table class="table table-striped">
+            <tr>
+                <th>Order Date</th>
+                <th>Order Status</th>
+            </tr>
+
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Date.ToString("dd-MM-yyyy")</td>
+                    <td>@order.OrderStatus.StatusName</td>
+                </tr>
+
+                @if (order.OrderDetails is not null && order.OrderDetails.Count > 0)
+                {
+                    <tr>
+                        <td>
+                            <table class="table table-striped">
+                                <tr>
+                                    <th>Game</th>
+                                    <th>Genre</th>
+                                    <th>Unit Price</th>
+                                    <th>Total Price</th>
+                                </tr>
+
+                                @foreach (var item in order.OrderDetails)
+                                {
+                                    <tr>
+                                        <td>@item.Game.Title</td>
+                                        <td>@item.Game.Genre.GenreName</td>
+                                        <td>@item.Game.UnitPrice X @item.Quantity</td>
+                                        <td>@(item.Game.UnitPrice * item.Quantity) $</td>
+                                    </tr>
+                                }
+
+                                <tr>
+                                    <td>
+                                        TOTAL: @(order.OrderDetails.Select(item => item.Game.UnitPrice * item.Quantity).Sum()) $
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    }
+    else
+    {
+        <h3>No orders done yet</h3>
+    }
+
+    <a href="/Identity/Account/Manage" class="btn btn-secondary my-2">Back</a>
+</div>

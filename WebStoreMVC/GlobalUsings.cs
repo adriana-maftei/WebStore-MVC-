@@ -1,0 +1,15 @@
+﻿global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using System.Diagnostics;
+global using System.Security.Claims;
+global using WebStoreMVC.Data;
+global using WebStoreMVC.Models;
+global using WebStoreMVC.Models.DTOs;
+global using WebStoreMVC.Repositories.Admin.Implementation;
+global using WebStoreMVC.Repositories.Admin.Interfaces;
+global using WebStoreMVC.Repositories.Clients.Implementation;
+global using WebStoreMVC.Repositories.Clients.Interfaces;
